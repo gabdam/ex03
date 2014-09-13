@@ -5,17 +5,17 @@ void main() {
     bool buzz = x % 5 == 0;
     bool fizzBuzz = x % 3 == 0 && x % 5 == 0;
 
-    if (fizz)
+    if (fizzBuzz)
     {
-      print("Fizz");
+      print("FizzBuzz");
     }
     else if (buzz)
     {
       print("Buzz");
     }
-    else if (fizzBuzz)
+    else if (fizz)
     {
-      print("FizzBuzz");
+      print("Fizz");
     }
     else
     {
